@@ -4,8 +4,8 @@ from typing import Union, Optional, Any
 from pathlib import Path
 import polars as pl
 import pandas as pd
-from sqlalchemy import Engine, text
-from sqlalchemy.engine import create_engine
+from sqlalchemy import create_engine, text
+from sqlalchemy.engine import Engine
 
 from .exceptions import UnsupportedDataSourceError
 

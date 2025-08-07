@@ -4,8 +4,8 @@ from typing import Union, Optional, List
 from pathlib import Path
 import polars as pl
 import pandas as pd
-from sqlalchemy import Engine, text, MetaData, Table, Column, inspect
-from sqlalchemy.engine import create_engine
+from sqlalchemy import create_engine, text, MetaData, Table, Column, inspect
+from sqlalchemy.engine import Engine
 from sqlalchemy.sql import insert, update, delete
 
 from .exceptions import CDCOperationError, UnsupportedDataSourceError

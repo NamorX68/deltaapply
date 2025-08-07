@@ -4,7 +4,7 @@ from typing import Union, List, Optional
 from pathlib import Path
 import polars as pl
 import pandas as pd
-from sqlalchemy import Engine
+from sqlalchemy.engine import Engine
 
 from .data_sources import DataSource
 from .cdc_operations import CDCOperations, CDCResult
